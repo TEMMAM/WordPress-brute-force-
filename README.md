@@ -17,7 +17,11 @@ By using this tool, you agree to use it only for lawful purposes.
 ```bash
 git clone https://github.com/TEMMAM/WordPress-brute-force-.git
 cd WordPress-brute-force-
-pip install -r requirements.txt
+
+---Requirements---
+requests>=2.28.0
+beautifulsoup4>=4.11.0
+argparse>=1.4.0  # Only needed for Python < 3.2
 
 ## Usage 
 
